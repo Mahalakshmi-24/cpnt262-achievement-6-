@@ -1,8 +1,9 @@
 <template>
-   <TheNavBar />
-   <div class="flex flex-col"> 
-  <h1 class="text-5xl">{{props.title}}</h1>
   
+   <div class="flex flex-row py-8 px-10 bg-blue-300"> 
+    <img src="../assets/logo.png" alt="logo-image" class="w-11 h-11 " >
+  <h1 class=" text-4xl">{{props.title}}</h1>
+   <TheNavBar />
   </div>
   
   
